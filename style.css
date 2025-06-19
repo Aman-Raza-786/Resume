@@ -1,0 +1,70 @@
+h1
+{
+    color:#EEEEEE;
+    background-color:#2A4759;
+}
+
+*{
+    background-color:#EEEEEE ;
+}
+
+h2
+{
+    color:#F79B72;
+    font-size:18px;
+    font-weight:bold;
+    
+}
+
+ul{
+    color:#2A4759;
+    font-size:12px;
+
+}
+
+p
+{
+    color:rgb(60, 102, 136);
+    font-size:14px;
+}
+
+img
+{
+    border: #F79B72 3px solid;
+}
+
+h3{
+    color:#2A4759;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.text-box {
+      border: 2px solid #333;     /* Border color and thickness */
+      padding: 3px;              /* Space between text and border */
+      width: fit-content;         /* Adjusts box width to text */
+      background-color: #2A4759;  /* Optional background color */
+      border-radius: 8px;         /* Optional rounded corners */
+      font-family: Arial, sans-serif;
+    }
+
+    .text-box2 {
+      border: 2px solid #EFE4D2;     /* Border color and thickness */
+      padding: 3px;              /* Space between text and border */
+      width: fit-content;         /* Adjusts box width to text */
+      background-color: #EFE4D2;  /* Optional background color */
+      border-radius: 8px;         /* Optional rounded corners */
+      font-family: Arial, sans-serif;
+    }
+
+.circle-image {
+      width: 100px;               /* Set width */
+      height: 100px;              /* Set height (equal to width for a circle) */
+      border-radius: 50%;         /* Makes the image round */
+      object-fit: cover;          /* Ensures the image fills the container */
+      border: 3px solid #EEEEEE;     /* Optional: border around the circle */
+    }
+
+*{
+    background-color: #FFE3BB;
+}

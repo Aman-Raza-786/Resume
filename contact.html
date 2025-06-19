@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="Stylesheet" href="./style.css">
+  <title>Contact Aman</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #143D60, #EB5B00);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+    }
+
+    .contact-form {
+      background: #FFF2DB   ;
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .contact-form h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .contact-form button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <form class="contact-form" action="https://formsubmit.co/amanrzakgn@gmail.com" method="POST">
+    <h2>Contact Me</h2>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    
+    <!-- Optional settings -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="box">
+
+    <button type="submit">Send Message</button>
+  </form>
+
+
+  <a class="text-box2" style="position: absolute; bottom: 100px;" href="./index.html"> Home</a>
+
+</body>
+</html>
